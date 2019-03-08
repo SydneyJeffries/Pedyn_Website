@@ -19,9 +19,11 @@
   </head>
 
   <body>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="js/aboutus.js"></script>
 
     <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar  navbar-expand-lg navbar-dark bg-dark ">
       <div class="container">
         <a class="navbar-brand" href="index.html">Start Bootstrap</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +35,7 @@
               <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
+              <a class="nav-link " href="services.html">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -78,6 +80,19 @@
     </nav>
 
     <!-- Page Content -->
+<div class="FAQcontainer" >
+  <div class="row">
+
+    <div class="col-7  slideTitle">
+
+
+  <h1 class=" text-left text-light"  >
+  <small>  About Our Company</small>
+  </h1>
+  </div>
+</div>
+</div>
+
     <div class="container mt-5">
 
 
@@ -85,57 +100,64 @@
       <!-- Intro Content -->
       <div class="row">
         <div class="col-lg-6">
-          <img class="img-fluid rounded mb-4" src="http://i68.tinypic.com/34fjy2g.png" alt="Picture of Dallas Skyline">
+
+          <img class="img-fluid rounded mb-3 imgDallas"   src="http://i68.tinypic.com/34fjy2g.png"  alt="Picture of Dallas Skyline">
+
         </div>
+
+
         <div class="col-lg-6">
           <h2>Pedyn, Inc.</h2>
           <p>Pedyn, Inc. specializes in Engineering Management, Manufacturing Operations, and Documentation Control Solutions.</p>
           <p>The name PEDYN stands for Professional Engineering DYNamics. The Company was established in 1999. We are Located in Grapevine, Texas, between Dallas and Fort Worth. We offer standard software products as well as custom solutions. We understand Buisness operations. Tell us about your needs , and we will be glad to work with you to find the software solution that is right for your buisness. </p>
-          <address>
+
+</div>
+</div>
+</div>
+<div class="container ">
+
+<div class="row">
+
+<div class="col-xs-12 col-sm-12 col-md-12 addressCol"  >
+
+
+          <address class="aboutusadress" >
             <h4>
             Contact Information:
           </h4>
 
-           Email:  <a href="mailto:support@pedyn.com"> Support@Pedyn.Com</a> <br/>
+           Email:  <a class="text-info" href="mailto:support@pedyn.com"> Support@Pedyn.Com</a> <br/>
 
-
-
-          Tel:  <a href="tel:8172518599">  (817)-251-8599 </a> <br  />
-
-
+          Tel:  <a class="text-info" href="tel:8172518599">  (817)-251-8599 </a> <br  />
               <p>
-
               Grapevine,TX <br />
              (Dallas/ Fort Worth)
           </p>
           </address>
       </div>
-      <!-- /.row -->
+      </div>  <!-- /.row -->
+    </div>
+  </div>
 
 
 
 
       <!-- Our Customers -->
+      <div class="container">
+
+
       <h2>Our Customers</h2>
       <div class="row">
-        <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </div>
-        <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </div>
-        <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </div>
-        <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </div>
-        <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </div>
-        <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </div>
+        <div class="col-12 mb-3">
+
+          <picture>
+            <source srcset="  http://i64.tinypic.com/2njheea.png"
+                    media="(min-width: 800px)">
+            <img class="img-fluid" src="http://i63.tinypic.com/2pyrtko.png" alt="our customers" />
+
+          </picture>
+
+      </div>
       </div>
       <!-- /.row -->
 </div>
@@ -188,7 +210,7 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
