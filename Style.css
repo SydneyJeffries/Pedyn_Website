@@ -11,12 +11,13 @@ ul {
 abbr[title] {
   border-bottom: none !important;
  cursor: inherit !important;
- text-decoration: none !important
+ text-decoration: none !important;
 }
 
  a {
-   color:
+   color: #17a2b8;
  }
+
 
  .FAQcontainer {
    background-color: #5bc0de;
@@ -46,4 +47,28 @@ abbr[title] {
     z-index: 1050;
 
   }
+}
+
+
+@media only screen and (min-width:900px){
+
+ .noWrapbig{
+   white-space: nowrap
+ }
+}
+
+ .smallcaps{
+font-variant: small-caps;
+
+ }
+
+.st0{fill:#FEFEFE;}
+.st1{fill:#343A40;}
+
+a:hover {
+  text-decoration: none;
+
+}
+a:focus {
+  text-decoration: none;
 }
