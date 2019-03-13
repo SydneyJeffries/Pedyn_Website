@@ -25,7 +25,8 @@ abbr[title] {
    background-attachment: fixed;
    background-size: cover;
    height: 12rem;
-    padding-top: 2rem;
+
+
 
  }
 
@@ -69,6 +70,9 @@ a:hover {
   text-decoration: none;
 
 }
+
+
+
 a:focus {
   text-decoration: none;
 }
