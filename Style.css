@@ -76,3 +76,27 @@ a:hover {
 a:focus {
   text-decoration: none;
 }
+
+ .list-group-item {
+padding-top: 0.20rem;
+padding-bottom: 0.20rem;
+padding-left: 0.3rem;
+padding-right: 0rem;
+border-top: none;
+border-left: none;
+border-right: none;
+
+}
+
+li {
+  list-style: none;
+}
+
+.sidebar {
+  margin-left: 3.5rem;
+  margin-top: 3.5rem;
+  min-width: 110px;
+  overflow: hidden;
+border-radius: 0 0 0 0 ;
+max-width: 10%;
+}
