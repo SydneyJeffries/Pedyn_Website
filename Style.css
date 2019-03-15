@@ -85,7 +85,7 @@ padding-right: 0rem;
 border-top: none;
 border-left: none;
 border-right: none;
-
+border-bottom: #17a2b8 solid 1px;
 }
 
 li {
@@ -99,4 +99,38 @@ li {
   overflow: hidden;
 border-radius: 0 0 0 0 ;
 max-width: 10%;
+}
+
+
+
+
+.list-group-item.active {
+border-color: #17a2b8;
+border-top: #17a2b8 solid 1px;
+border-left: #17a2b8 solid 1px;
+border-right: #17a2b8 solid 1px;
+background-color: #17a2b8;
+color: #fff ;
+}
+
+.list-group-item {
+padding-top: 0.35rem;
+padding-bottom: 0.35rem;
+padding-left: 0.3rem;
+padding-right: 0rem;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: #17a2b8 solid 1px!important;
+margin-bottom: 0;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+}
+
+.list-group-item:last-child {
+  border-bottom-left-radius: 0rem;
+  border-bottom-right-radius: 0rem;
 }

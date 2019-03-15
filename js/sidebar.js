@@ -33,12 +33,16 @@ function onScroll(event){
             currLink.addClass("active");
             console.log(scrollPos);
             console.log(refElement.offset().top);
-            
+
             console.log(refElement.height());
             console.log(refElement.offset().top + refElement.height() );
         }
         else{
             currLink.removeClass("active");
+        }
+        if (scrollPos >= 7100) {
+          currLink.removeClass("active");
+          $('a[href="#management"]').addClass("active")
         }
     });
 }
