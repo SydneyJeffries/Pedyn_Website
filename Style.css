@@ -93,9 +93,9 @@ li {
 }
 
 .sidebar {
-  margin-left: 3.5rem;
-  margin-top: 3.5rem;
-  min-width: 110px;
+  margin-left: 10rem;
+  margin-top: 4rem;
+  min-width: 30rem;
   overflow: hidden;
 border-radius: 0 0 0 0 ;
 max-width: 10%;
