@@ -20,13 +20,14 @@
   <style>
 
 @media only screen and (min-width: 1401px) {
-
-  .rowmarginadd{
-  margin-left: auto;
+  .fakemargin{
+    width: 5rem;
   }
 
+
 .paddedcol{
-  padding-left:20vw;
+  padding-left:14vw;
+    box-shadow: .3rem .3rem .3rem #666666;
 }
 
 }
@@ -34,12 +35,14 @@
 
 @media only screen and (max-width: 1400px) and (min-width: 769px) {
 
-
+  .fakemargin{
+    width: 3rem;
+  }
 
 .paddedcol{
-  padding-left:10vw;
+  padding-left:7vw;
   border-radius: .55rem;
-
+  box-shadow: .3rem .3rem .3rem #777777;
 
 }
 
@@ -56,6 +59,8 @@
 .paddedcol{
   opacity: .9;
   background-color: #4d8788;
+  border-radius: .25rem;
+
 }
 
 
@@ -63,7 +68,7 @@
 .whychoosetitle{
 
   color: white;
-  padding: .5rem ;
+  padding: .8rem ;
 }
 
 .underline{
@@ -78,6 +83,10 @@
   font-size: 18px;
   color: white;
 }
+
+
+
+
 /*  @media only screen and (max-width: 1518px) and (min-width: 1182px){
     .streachhomepagebulletscontainer {
     margin-left: 10vw;
@@ -162,11 +171,11 @@ margin-left: 20vw;
   </nav>
 
   <!-- Header -->
-  <header class="bg-info py-5 ">
+  <header class="bg-info py-4 mb-3">
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-lg-12">
-          <h1 class="display-4 text-white  mb-3">Pedyn: <abbr title="Manufacturing resource planning"> MRP</abbr> Software</h1>
+          <h1 class="display-4 text-white  ">Pedyn: <abbr title="Manufacturing resource planning"> MRP</abbr> Software</h1>
           <p class="lead text-white-50">Pedyn is the perfect database software solution for small to mid-sized buisnesses and manufacturing firms.</p>
         </div>
         <p class="listourfocuscontainer">
@@ -212,8 +221,11 @@ margin-left: 20vw;
 
 
     <div class="row mb-3 rowmarginadd">
-      <div class="col-md-8 paddedcol ">
-        <h4 class="mt-3 whychoosetitle">Why Choose Us </h4>
+      <div class="col-lg-1 fakemargin d-lg">
+
+      </div>
+      <div class="col-md-7 paddedcol " >
+        <h4 class=" whychoosetitle">Why Choose Us </h4>
         <div class="underline">
 
         </div>
@@ -226,9 +238,9 @@ margin-left: 20vw;
       <strong>Free support and no anual fees!</strong> We have been providing free ongoing phone and email support to our clients from day one. We are the only company of this type that provides unlimited technical support with out any contracts.</p>
     </p>
       </div>
-      <div class="col-md-4 mt-4">
+      <div class="col-md-4 ">
         <figure class="figure">
-        <img src="IMG/compresseddetails/swbrd1.jpg" alt="picture of program" />
+        <img class="img-fluid" src="IMG/compresseddetails/swbrd1.jpg" alt="picture of program" />
         <figcaption class="figure-caption text-right"> Pedyn P2000 Main Switchboard</figcaption>
         </figure>
       </div>
