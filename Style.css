@@ -30,6 +30,14 @@ abbr[title] {
 
  }
 
+ .MTcontainer{
+   background-image: url("IMG/compresseddetails/trianglesvg.svg");
+   background-attachment: fixed;
+   background-size: cover;
+   height: 12rem;
+
+ }
+
 @media only screen and (max-width:900px) {
   nav {
     position: sticky;
