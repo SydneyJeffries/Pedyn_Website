@@ -145,19 +145,25 @@ margin-bottom: 0;
 
 @media(min-width: 1200px) {
 .container-outter {
-max-width: 1550px;
+max-width: 1600px;
 }
 }
 
 .container-outter {
-  background-color: white;
+background-color: white;
+
   padding-left: 0;
   padding-right: 0;
+  border-radius: 2rem;
+
+ 
 }
 
 
 body {
-  background-color: #898c8c;
+  /*background-color:#a1acae; */
+  background-color: #d0d5d6;
+  font-size: 18px;
 }
 
 .salesoffer{
@@ -167,4 +173,35 @@ text-align: center;
 font-variant: small-caps;
 color: white;
 
+}
+
+.row-grey {
+  background-color: #e3e6e6 ; 
+  /*background-color: #e0e4e4; */
+  padding: 3rem 3rem 3rem 3rem;
+  margin-left: 0;
+  margin-right: 0;
+  
+
+
+}
+
+.white-box {
+  background-color: white;
+  opacity: .95;
+  padding: 2rem;
+  border-radius: .25rem;
+  
+}
+
+@media only screen and (min-width:800px){
+  .white-box {
+    z-index: 1000;
+    position: relative; 
+    left: 3rem;
+  }
+}
+
+h4 {
+  font-variant: small-caps;
 }
