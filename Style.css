@@ -143,6 +143,25 @@ margin-bottom: 0;
   border-bottom-right-radius: 0rem;
 }
 
+ .white-box-header{
+  background-color: white;
+  opacity: .8;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: .25rem;
+}
+
+
+
+.underline{
+  margin-bottom: 1rem;
+  margin-left: .5rem;
+  width: 5rem;
+  height: .2rem;
+  background-color:#17a2b8;
+}
+
+
+
 @media(min-width: 1200px) {
 .container-outter {
 max-width: 1600px;
@@ -178,7 +197,7 @@ color: white;
 .row-grey {
   background-color: #e3e6e6 ; 
   /*background-color: #e0e4e4; */
-  padding: 3rem 3rem 3rem 3rem;
+  
   margin-left: 0;
   margin-right: 0;
   
@@ -189,19 +208,33 @@ color: white;
 .white-box {
   background-color: white;
   opacity: .95;
-  padding: 2rem;
+  padding: 1rem 2rem 1rem 2rem;
   border-radius: .25rem;
+  max-width: 100rem ;
   
 }
 
-@media only screen and (min-width:800px){
-  .white-box {
-    z-index: 1000;
-    position: relative; 
-    left: 3rem;
+/* everything above tablet size */
+@media only screen and (min-width:769px){
+  
+  .row-grey {
+    padding: 3rem 3rem 3rem 4rem;
+    padding-left: 6rem;
   }
+
+  .white-box{
+   
+  }
+  
+  .img-mobile {
+    
+    position: relative; 
+    left: -3.0rem;
+  }
+ 
 }
 
 h4 {
   font-variant: small-caps;
 }
+
