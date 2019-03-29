@@ -151,9 +151,20 @@ max-width: 1550px;
 
 .container-outter {
   background-color: white;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 
 body {
-  background-color: grey;
+  background-color: #898c8c;
+}
+
+.salesoffer{
+padding: .2rem 1rem;
+background-color:  #17a2b8;
+text-align: center;
+font-variant: small-caps;
+color: white;
+
 }
