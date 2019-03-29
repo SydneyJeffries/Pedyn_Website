@@ -19,6 +19,7 @@
 
   <style>
 
+
 @media only screen and (min-width: 1401px) {
   .fakemargin{
     width: 5rem;
@@ -30,9 +31,12 @@
     box-shadow: .3rem .3rem .3rem #666666;
 }
 
+.partsnvendorscol {
+ box-shadow: .3rem .3rem .3rem #666666;
+
 }
 
-
+}
 @media only screen and (max-width: 1400px) and (min-width: 769px) {
 
   .fakemargin{
@@ -41,10 +45,10 @@
 
 .paddedcol{
   padding-left:7vw;
-  border-radius: .55rem;
   box-shadow: .2rem .2rem .1rem #888888;
 
 }
+
 
 }
 
@@ -52,9 +56,17 @@
 
   .paddedcol{
     padding: 1rem;
+    border-color: #fff;
   }
+
+  .partsnvendorscol {
+
+  }
+
+
 }
 
+/* end of media queries */
 
 .paddedcol{
   opacity: .9;
@@ -67,7 +79,6 @@ border: .2rem solid #4d8788;
 
 .whychoosetitle{
 
-
   padding: .8rem ;
 }
 
@@ -79,12 +90,17 @@ border: .2rem solid #4d8788;
   background-color: #4d8788;
 }
 
-.whychoosep {
+
+
+.partsnvendorscol {
+  border: yellow solid .2rem;
 
 
 }
 
-
+.partsheader{
+  padding: .8rem;
+}
 
 
 /*  @media only screen and (max-width: 1518px) and (min-width: 1182px){
@@ -143,8 +159,9 @@ margin-left: 20vw;
 <body>
 
   <!-- Navigation -->
+  <div class="container container-outter">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-    <div class="container">
+   
       <a class="navbar-brand" href="#"><img src="http://i67.tinypic.com/fx5aqa.jpg" alt="Pedyn Logo" style="width: 120px; height: 50px"/></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -167,7 +184,7 @@ margin-left: 20vw;
           </li>
         </ul>
       </div>
-    </div>
+   
   </nav>
 
   <!-- Header -->
@@ -214,7 +231,7 @@ margin-left: 20vw;
         </p>
 
       </div>
-    </div>
+   </div>
   </header>
 
   <!-- Page Content -->
@@ -246,27 +263,31 @@ margin-left: 20vw;
       </div>
     </div>
     <!-- /.row -->
+  
 
- <!-- end of container -->
 
-<div class="container">
+
    <div class="row">
 
      <div class="col-md-7 mb-3">
         <h4> Interfaces with:</h4>
       <img class="img-fluid mx-auto" src=" http://i66.tinypic.com/2319wg.png" alt="interfaces with SAGE, SAP, Oracle, Agile, PTC, SolidWorks, AutoDesk, TurbCAD, Sage, Peachtree, Intuit, Parts and Vendors" />
      </div>
-     <div class="col-md-5 mb-3">
-  <h4>Parts and Vendors </h4>
+
+
+     <div class="col-md-5 mb-3 partsnvendorscol pb-3"  >
+  <h4 class="partsheader">Parts and Vendors </h4>
+  <div class="partsunderline" style=" margin-left: .8rem; width: 5rem; height: .2rem; background-color:yellow;">
+  </div>
 </br>
   The P2000 product line is the perfect <span class="bold" style="font-weight: bold;"> Parts & Vendors replacement solution. </span> We provide all the necessary setup and migration support. Let us transfer all of your data. You will be up and running with a new system with out lifting a finger.
 
      </div>
    </div> <!--row-->
-</div> <!-- end of container-->
 
 
-<div class="container " >
+
+
 
   <div class="row">
     <div class="col-8 mb-3">
@@ -302,12 +323,11 @@ margin-left: 20vw;
   </div>
   <!-- /.row -->
 
-</div> <!-- end of container -->
 
 
 
 
-</div> <!-- end of container -->
+
 
 
 <!--<div class="container ">
@@ -333,7 +353,7 @@ margin-left: 20vw;
 
 
 
-<div class="container streachhomepagebulletscontainer " style="max-width: 1300px;  " >
+
     <div class="row">
       <div class="col-md-6 col-sm-12 col-xs-12  mb-3 homepagecardsize" style=" ">
 
@@ -395,7 +415,7 @@ margin-left: 20vw;
           </div>
         </div>
       </div>
-
+   
 
       <div class="col-md-6 mb-3  col-sm-12 col-xs-12 homepagecardsize" style=" ">
         <div class="card h-100" >
@@ -466,9 +486,8 @@ margin-left: 20vw;
 
 
 </div> <!--end of row-->
-</div> <!--end of container-->
 
-<div class="container" >
+
 <div class="row mb-3 mt-3">
   <div class="col-md-8">
 
@@ -569,7 +588,7 @@ margin-left: 20vw;
 
 
 
-</div> <!-- end of container-->
+
 
 
     <div id="carouselExampleSlidesOnly" class="carousel slide " data-ride="carousel" data-interval="4200" data-pause="false">
@@ -619,14 +638,13 @@ margin-left: 20vw;
   end of attempted form -->
 
 
-  </div>
-  <!--end of row-->
-  </div>
-<!--end of container-->
+  
+ 
+ 
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
-    <div class="container">
+   
     <div class="row">
       <div class="col-4 d-flex">
         <ul >
@@ -654,6 +672,7 @@ margin-left: 20vw;
             <a class="text-info" href="FAQ"> FAQ</a>
           </li>
         </ul>
+    
 </div>
       <div class="col-md-8 col-sm-10 col-xs-10 ">
 
@@ -665,14 +684,16 @@ margin-left: 20vw;
 
       </p>
     </div>
-
+  
   </div> <!--row-->
-    <!-- /.container -->
+  
   </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</div> <!--end of container--outer-->
 
 </body>
 

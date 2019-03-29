@@ -142,3 +142,18 @@ margin-bottom: 0;
   border-bottom-left-radius: 0rem;
   border-bottom-right-radius: 0rem;
 }
+
+@media(min-width: 1200px) {
+.container-outter {
+max-width: 1550px;
+}
+}
+
+.container-outter {
+  background-color: white;
+}
+
+
+body {
+  background-color: grey;
+}
