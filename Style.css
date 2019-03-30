@@ -146,7 +146,7 @@ margin-bottom: 0;
  .white-box-header{
   background-color: white;
   opacity: .8;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem rem;
   border-radius: .25rem;
 }
 
@@ -155,7 +155,15 @@ margin-bottom: 0;
 .underline{
   margin-bottom: 1rem;
   margin-left: .5rem;
-  width: 5rem;
+  width: 6rem;
+  height: .2rem;
+  background-color:#17a2b8;
+}
+
+.underline-longer{
+  margin-bottom: 1rem;
+  margin-left: .5rem;
+  width: 13rem;
   height: .2rem;
   background-color:#17a2b8;
 }
@@ -169,7 +177,7 @@ max-width: 1600px;
 }
 
 .container-outter {
-background-color: white;
+background-color: #fefefe ;
 
   padding-left: 0;
   padding-right: 0;
@@ -185,6 +193,15 @@ body {
   font-size: 18px;
 }
 
+.smallcaps{
+  font-variant: small-caps;
+}
+
+.smallcaps-blue {
+  color:#17a2b8;
+   font-variant: small-caps;
+
+}
 .salesoffer{
 padding: .2rem 1rem;
 background-color:  #17a2b8;
@@ -206,17 +223,67 @@ color: white;
 }
 
 .white-box {
-  background-color: white;
-  opacity: .95;
+  background-color: #fefefe  ;
+
   padding: 1rem 2rem 1rem 2rem;
   border-radius: .25rem;
   max-width: 100rem ;
   
 }
 
+h4 {
+  font-variant: small-caps;
+}
+
+.interfacewith{
+  margin:auto;
+  padding: 1rem;
+}
+
+.row-grey-2{
+  background-color:  #e3e6e6 ;
+  margin: 0;
+ padding: 1rem;
+}
+
+.partsnvendors-grey {
+  background-color:#fefefe  ;
+
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: .25rem;
+}
+
+.operatingplatforms > .grey-box {
+background-color: #e3e6e6;
+border-radius: .25rem;
+padding: 1rem 2rem 1rem 2rem;
+
+}
+
+.pictureborder {
+  border: 4px solid #e3e6e6;
+}
+
+
 /* everything above tablet size */
 @media only screen and (min-width:769px){
   
+.interfacewith{
+ 
+}
+
+.operatingplatforms {
+  padding-left: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+.row-grey-2{
+  padding: 3rem;
+}
+
+
   .row-grey {
     padding: 3rem 3rem 3rem 4rem;
     padding-left: 6rem;
@@ -232,9 +299,5 @@ color: white;
     left: -3.0rem;
   }
  
-}
-
-h4 {
-  font-variant: small-caps;
 }
 
