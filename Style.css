@@ -146,7 +146,7 @@ margin-bottom: 0;
  .white-box-header{
   background-color: white;
   opacity: .8;
-  padding: 1rem 1rem 1rem rem;
+  padding: 1rem 1rem 1rem 1rem;
   border-radius: .25rem;
 }
 
@@ -168,7 +168,9 @@ margin-bottom: 0;
   background-color:#17a2b8;
 }
 
-
+.btn-outline-info {
+ border: .2rem solid #17a2b8;
+}
 
 @media(min-width: 1200px) {
 .container-outter {
@@ -222,6 +224,12 @@ color: white;
 
 }
 
+.card-row{
+  background-image: url("img/card-background.svg");
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .white-box {
   background-color: #fefefe  ;
 
@@ -260,9 +268,12 @@ padding: 1rem 2rem 1rem 2rem;
 
 }
 
-.pictureborder {
-  border: 4px solid #e3e6e6;
+
+footer {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
+
 
 
 /* everything above tablet size */
@@ -271,6 +282,11 @@ padding: 1rem 2rem 1rem 2rem;
 .interfacewith{
  
 }
+
+.pictureborder {
+  border: 4px solid #e3e6e6;
+}
+
 
 .operatingplatforms {
   padding-left: 7rem;
