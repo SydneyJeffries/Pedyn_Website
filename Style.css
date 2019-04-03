@@ -144,7 +144,7 @@ margin-bottom: 0;
 }
 
  .white-box-header{
-  background-color: #fefefe;
+  background-color: #f9fafa;
   opacity: .8;
   padding: 1rem 1rem 1rem 1rem;
   border-radius: .25rem;
@@ -155,7 +155,7 @@ margin-bottom: 0;
 .underline{
   margin-bottom: 1rem;
   margin-left: .5rem;
-  width: 6rem;
+  width: 7rem;
   height: .2rem;
   background-color:#17a2b8;
 }
@@ -179,7 +179,7 @@ max-width: 1600px;
 }
 
 .container-outter {
-background-color: #fefefe ;
+background-color: #f9fafa;
 
   padding-left: 0;
   padding-right: 0;
@@ -211,7 +211,7 @@ padding: .2rem 1rem;
 background-color:  #17a2b8;
 text-align: center;
 font-variant: small-caps;
-color: white;
+color: white ;
 
 }
 
@@ -233,7 +233,7 @@ color: white;
 }
 
 .white-box {
-  background-color: #fefefe  ;
+  background-color: #f9fafa ;
 
   padding: 1rem 2rem 1rem 2rem;
   border-radius: .25rem;
@@ -256,14 +256,14 @@ h4 {
  padding: 1rem;
 }
 
-.partsnvendors-grey {
-  background-color:#fefefe  ;
+.partsnvendors-white {
+  background-color: #f9fafa  ;
 
   padding: 1rem 2rem 1rem 2rem;
   border-radius: .25rem;
 }
 
-.operatingplatforms > .grey-box {
+.row-white_center > .grey-box {
 background-color: #e3e6e6;
 border-radius: .25rem;
 padding: 1rem 2rem 1rem 2rem;
@@ -290,10 +290,13 @@ footer {
 }
 
 
-.operatingplatforms {
+.row-white_center {
+  background-color: #f9fafa;
   padding-left: 7rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  margin-right: 0;
+  margin-left:0;
 }
 
 
