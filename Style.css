@@ -144,7 +144,7 @@ margin-bottom: 0;
 }
 
  .white-box-header{
-  background-color: white;
+  background-color: #fefefe;
   opacity: .8;
   padding: 1rem 1rem 1rem 1rem;
   border-radius: .25rem;
@@ -191,8 +191,10 @@ background-color: #fefefe ;
 
 body {
   /*background-color:#a1acae; */
-  background-color: #d0d5d6;
+  /*background-color: #d0d5d6; */
   font-size: 18px;
+  background-color: #d0d5d6;
+
 }
 
 .smallcaps{
