@@ -274,12 +274,14 @@ background-color:  #e3e6e6 ;
   border-radius: .25rem;
 }
 
-.row-white_center > .grey-box {
+ .grey-box {
 background-color: #e3e6e6;
 border-radius: .25rem;
 padding: 1rem 2rem 1rem 2rem;
 
 }
+
+
 
 
 footer {
@@ -318,13 +320,30 @@ footer {
 
 
 
+/* everything slightly above tablet size */
+@media only screen and (min-width: 900px){
 
 
+  .movedleftintopicture{
+  
+      position: relative;
+      Left: -2rem;
+     padding-left: 4rem;
+    }
+
+.row-white-xpadding {
+  padding-left: 2rem;
+}
+ 
+.img-zscore {
+ position: relative;
+ left:.5rem;
+ top: 1rem;
+ z-index: 1000;
+}
 
 
-
-
-
+}
 
 
 
@@ -334,6 +353,10 @@ footer {
 /* everything above tablet size */
 @media only screen and (min-width:769px){
   
+.clients-centered {
+  padding-left: 3rem;
+}
+
 .interfacewith{
  
 }
@@ -352,7 +375,10 @@ footer {
   margin-left:0;
 }
 
-
+.ourclientbutton-padding {
+  padding-top: 2rem;
+ 
+}
 
 
 .row-grey-2{
