@@ -199,6 +199,12 @@ background-color: #f9fafa;
 }
 
 
+
+.mastercard-img{
+ padding-right: 2.0em;
+  height: 30px;
+}
+
 body {
   /*background-color:#a1acae; */
   /*background-color: #d0d5d6; */
@@ -243,7 +249,7 @@ color: white ;
 padding: 2rem 1rem 1rem 1rem;
   margin-left: 0;
   margin-right: 0;
-  
+ 
   
 
 }
@@ -413,7 +419,12 @@ footer {
 
 }
 
-
+.mastercard-img{
+  padding-right: 5.0em;
+   height: 30px;
+  padding-left: 3rem;
+ }
+ 
 
 
 }
