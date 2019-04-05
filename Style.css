@@ -230,8 +230,24 @@ color: white ;
   margin-right: 0;
   
 
+}
+
+.row-grey-whiteBorder {
+  box-sizing: border-box;
+  background-color: #e3e6e6 ; 
+  /*background-color: #e0e4e4; */
+ padding-top: 1rem;
+ padding-bottom: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  border: 2rem solid #f9fafa ;
+  border-bottom: none;
+  border-radius: 2.5rem 2.5rem 0 0;
+  
 
 }
+
+
 
 .card-row{
   background-image: url("img/card-background.svg");
@@ -297,7 +313,10 @@ footer {
   padding-right: 2rem;
 }
 
+.img-mobile2{
+  margin-right:auto;
 
+}
 
 
 .row-white-nopadding {
@@ -312,6 +331,28 @@ footer {
   background-color: #f9fafa;
   margin-right: 0;
   margin-left: 0;
+
+}
+
+
+.row-white-orderBorder {
+  padding: 1rem;
+  background-color: #f9fafa;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* everything above 1100px and not any smaller */
+@media only screen and (min-width: 1100px){
+
+
+  .whychoose {
+  
+    position: relative;
+    left: 4rem;
+  }
+
+
 
 }
 
@@ -341,6 +382,7 @@ footer {
  top: 1rem;
  z-index: 1000;
 }
+
 
 
 }
@@ -375,6 +417,8 @@ footer {
   margin-left:0;
 }
 
+
+
 .ourclientbutton-padding {
   padding-top: 2rem;
  
@@ -392,6 +436,8 @@ footer {
 }
 
 
+
+
   .row-grey {
     padding: 3rem 3rem 3rem 4rem;
     padding-left: 6rem;
@@ -401,10 +447,11 @@ footer {
    
   }
   
-  .img-mobile {
-    
+  .img-mobile2 {
+    min-width: 300px;
     position: relative; 
-    left: -3.0rem;
+    left: -2.0rem;
+   
   }
  
 }
