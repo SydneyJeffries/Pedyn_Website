@@ -113,10 +113,14 @@ li {
 .sidebar {
   font-size: .8rem;
    border-radius: 0;
-  margin-top: 4rem;
+  margin-top: 8rem;
   min-width: 30rem;
   margin-left: 10px;
   
+}
+
+.sidebar-adjusted{
+  margin-top: 2rem;
 }
 
 @media only screen and (min-width: 1500px) and (max-width:1700px)
@@ -130,7 +134,7 @@ li {
 
 @media only screen and (min-width: 1700px) {
   .sidebar{
-    margin-left: 212px;
+    margin-left: 242px;
   }
 }
 

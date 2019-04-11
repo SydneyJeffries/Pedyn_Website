@@ -44,5 +44,15 @@ function onScroll(event){
           currLink.removeClass("active");
           $('a[href="#management"]').addClass("active")
         }
+
+        if (scrollPos >= 300) {
+        $('.sidebar').addClass("sidebar-adjusted")          
+        }
+        
+      if (scrollPos <= 280) {
+        $('.sidebar').removeClass('sidebar-adjusted')   
+      }
+
+       
     });
 }
