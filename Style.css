@@ -99,20 +99,39 @@ padding-right: 0rem;
 border-top: none;
 border-left: none;
 border-right: none;
-border-bottom: #17a2b8 solid 1px;
+border-bottom: #17a2b8 solid 5px;
+background-color:  #f9fafa ;
 }
+
+
+
 
 li {
   list-style: none;
 }
 
 .sidebar {
-  margin-left: 10rem;
+  font-size: .8rem;
+   border-radius: 0;
   margin-top: 4rem;
   min-width: 30rem;
-  overflow: hidden;
-border-radius: 0 0 0 0 ;
-max-width: 10%;
+  margin-left: 10px;
+  
+}
+
+@media only screen and (min-width: 1500px) and (max-width:1700px)
+{
+.sidebar {
+  margin-left: 80px
+}
+  
+
+}
+
+@media only screen and (min-width: 1700px) {
+  .sidebar{
+    margin-left: 212px;
+  }
 }
 
 
@@ -130,14 +149,14 @@ color: #fff ;
 }
 
 .list-group-item {
-padding-top: 0.35rem;
-padding-bottom: 0.35rem;
-padding-left: 0.3rem;
-padding-right: 0rem;
+padding-top: 0.55rem;
+padding-bottom: 0.55rem;
+padding-left: 0.4rem;
+padding-right: 0.4rem;
 border-top: none;
 border-left: none;
 border-right: none;
-border-bottom: #17a2b8 solid 1px!important;
+border-bottom: #17a2b8 solid 3px!important;
 margin-bottom: 0;
 }
 
@@ -162,6 +181,10 @@ margin-bottom: 0;
 
 }
 
+.weirdFontSize {
+  font-size: 1rem;
+}
+
 .underline{
   margin-bottom: 1rem;
   margin-left: .5rem;
@@ -177,6 +200,17 @@ margin-bottom: 0;
   height: .2rem;
   background-color:#17a2b8;
 }
+
+
+hr {
+  margin-left: 3rem;
+  border-width: .2rem;
+  border-color: #17a2b8;
+
+
+}
+
+
 
 .btn-outline-info {
  border: .2rem solid #17a2b8;
@@ -218,7 +252,7 @@ body {
 }
 
 .smallcaps-blue {
-  color:#17a2b8;
+  color : #17a2b8;
    font-variant: small-caps;
 
 }
@@ -347,6 +381,13 @@ footer {
 
 }
 
+.button_mobile-center{
+  display:block;
+   width:8rem; 
+   margin-left: 36%;
+  
+}
+
 
 
 .row-white-orderBorder {
@@ -357,17 +398,26 @@ footer {
 }
 
 
+.changeAlignment-Mobile {
+text-align: center;
+
+}
+
 
 /* everything above 1100px and not any smaller */
 @media only screen and (min-width: 1100px){
+ 
 
-
+  
   .whychoose {
   
     position: relative;
     left: 4rem;
   }
 
+  .changeAlignment-Mobile {
+    text-align: left;
+  }
   
 
 }
@@ -384,6 +434,14 @@ footer {
   min-height: 236px;
  
 }
+
+.button_mobile-center
+{
+  display:block; 
+   margin-left: 0;
+  }
+
+
 
 
   .movedleftintopicture{
@@ -444,7 +502,6 @@ footer {
 .interfacewith{
  
 }
-
 
 
 
