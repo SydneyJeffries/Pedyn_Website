@@ -434,10 +434,23 @@ footer {
   margin-left: 0;
 }
 
+.scaleLogo {
+  width: 50%;
+  height: 50%;
+}
 
 .changeAlignment-Mobile {
 text-align: center;
 
+}
+
+.FAQcontainer2 {
+
+  background-color: #9abfd9;
+
+background-attachment: fixed;
+background-size: cover;
+  
 }
 
 
