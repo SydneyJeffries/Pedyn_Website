@@ -50,9 +50,11 @@ abbr[title] {
    background-size: cover;
    height: 12rem;
 
-
-
  }
+
+
+
+
 
  nav , footer {
    background-color: #252526;
@@ -241,6 +243,34 @@ hr {
 
 }
 
+
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-weight:bolder;
+  font-size: 55px;
+  color:#17a2b8
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-weight: bolder;
+  font-size: 55px;
+  color:#17a2b8
+}
 
 
 .btn-outline-info {
@@ -470,6 +500,7 @@ background-size: cover;
   .changeAlignment-Mobile {
     text-align: left;
   }
+  
   
 
   
