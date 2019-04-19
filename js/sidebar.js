@@ -1,6 +1,21 @@
-$(document).ready(function () {
-    $(document).on("scroll", onScroll);
 
+   function moveSideBar (event){
+    var widthdif = $('.container').css('margin-left');
+   $('.sidebar').css('margin-left', widthdif);
+}
+
+$(window).resize(function(event){
+   moveSideBar(event);
+});
+
+
+$(document).ready(function () {
+
+    moveSideBar(event);
+
+ 
+
+    $(document).on("scroll", onScroll);
     //smoothscroll
     $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
@@ -55,4 +70,6 @@ function onScroll(event){
 
        
     });
+
+ 
 }

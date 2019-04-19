@@ -192,7 +192,10 @@ li {
   margin-top: 2rem;
 }
 
-@media only screen and (min-width: 1500px) and (max-width:1700px)
+
+
+/* 
+ @media only screen and (min-width: 1500px) and (max-width:1700px)
 {
 .sidebar {
   margin-left: 80px
@@ -205,7 +208,7 @@ li {
   .sidebar{
     margin-left: 202px;
   }
-}
+}  */
 
 
 .text-color-main {
