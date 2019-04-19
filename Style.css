@@ -72,10 +72,7 @@ abbr[title] {
   margin-right: auto;
 }
 
-.solutions {
-  position:relative;
-  left: 16rem;
-}
+
 
 .background-img {
 background-color: #e3e6e6;
@@ -183,9 +180,11 @@ li {
 .sidebar {
   font-size: .8rem;
    border-radius: 0;
-  margin-top: 8rem;
+ /* margin-top: 8rem; */
+ margin-top: 6rem; 
   min-width: 30rem;
-  margin-left: 10px;
+  margin-left: 10px; 
+
   
 }
 
@@ -204,7 +203,7 @@ li {
 
 @media only screen and (min-width: 1700px) {
   .sidebar{
-    margin-left: 242px;
+    margin-left: 202px;
   }
 }
 
@@ -314,6 +313,9 @@ hr {
 }
 
 
+.row-2{
+  padding-right: 2rem;
+}
 .btn-outline-info {
  border: .2rem solid #17a2b8;
 }
