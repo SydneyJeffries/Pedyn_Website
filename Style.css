@@ -54,6 +54,23 @@ abbr[title] {
 
 
 
+.background-img {
+background-color: #e3e6e6;
+background-size: cover;
+
+
+  background-image:url('IMG/Backgrounds/homepagebgw-overlay.jpg')
+}
+
+.homepage-header-box {
+  border-radius: .25rem;
+  display: block;
+  background-color: #f9fafa;
+   opacity: .8;
+   padding-left: 1rem;
+   padding-right: 1rem;
+  
+}
 
 
  nav , footer {
@@ -452,10 +469,15 @@ footer {
   
 }
 
+.text-underline {
+ 
+  border-bottom: 1.4px solid #17a2b8;
+  padding-bottom: 0;
+}
+
 .customers-industrties-box{
   padding-bottom: 1rem;
 }
-
 
 .row-white-orderBorder {
   padding: 1rem;
@@ -491,6 +513,23 @@ background-size: cover;
   min-width: 1000px;
 }
 
+.extendNoBreakBackground {
+  width:102%
+}
+.ml-10-lg {
+  margin-left: 14rem;
+}
+
+.ml-12-lg {
+  margin-left: 10rem;
+}
+.pl-5-lg{
+  padding-left: 2rem;
+}
+
+.pl-10-lg{
+  padding-left: 16rem;
+}
   .whychoose {
   
     position: relative;
@@ -501,7 +540,9 @@ background-size: cover;
     text-align: left;
   }
   
-  
+  .no-break-large {
+  white-space: nowrap;
+  }
 
   
   .offset-lg-cust {
