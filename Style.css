@@ -111,6 +111,12 @@ background-size: cover;
    padding-left: 3rem;
  }
 
+ .logo_h4-inline {
+  margin-bottom: .22rem;
+   width: 2.8rem;
+    height: 2rem;
+ }
+
  .MTcontainer{
    background-image: url("IMG/compresseddetails/trianglesvg.svg");
    background-attachment: fixed;
@@ -549,9 +555,21 @@ background-size: cover;
 }
 
 
+.img-overlap {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+
+
 /* everything above 1100px and not any smaller */
 @media only screen and (min-width: 1100px){
  
+
+
+
+
 .customers-industries.box {
   min-width: 1000px;
 }
@@ -614,6 +632,15 @@ background-size: cover;
 /* everything slightly above tablet size */
 @media only screen and (min-width: 900px){
 
+  .img-overlap {
+    position: relative;
+    left:-3rem;
+    top:-2rem;
+    z-index: 1000;
+    
+  }
+
+
 .paybycard-card {
   min-height: 236px;
  
@@ -638,6 +665,8 @@ background-size: cover;
   padding-left: 2rem;
 }
  
+
+
 .img-zscore {
  position: relative;
  left:.5rem;
