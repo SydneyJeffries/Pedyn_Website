@@ -92,6 +92,14 @@ background-size: cover;
   
 }
 
+.homepage-header-box-grey{
+  display:block; 
+  background-color: #e3e6e6;
+   border-radius:.25rem;
+    padding-left:1rem;
+     padding-right:1rem;
+}
+
 
  nav , footer {
    background-color: #252526;
