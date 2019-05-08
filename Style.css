@@ -403,6 +403,11 @@ transition-duration: 1s;
 
 }
 
+.noMargin-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .row-grey-whiteBorder {
   box-sizing: border-box;
   background-color: #e3e6e6 ; 
@@ -467,6 +472,7 @@ background-color:  #e3e6e6 ;
 background-color: #e3e6e6;
 border-radius: .25rem;
 padding: 1rem 2rem 1rem 2rem;
+
 
 }
 
