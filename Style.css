@@ -377,6 +377,12 @@ body {
    font-variant: small-caps;
 
 }
+
+.addons-button{
+  padding-left: 3rem;
+   padding-right: 3rem; 
+}
+
 .salesoffer{
 padding: .3rem 1rem;
 background-color:  #17a2b8;
@@ -551,6 +557,10 @@ text-align: center;
 
 }
 
+#nav-header{
+  font-size: 1.6rem;
+}
+
 .FAQcontainer2 {
 
   background-color: #9abfd9;
@@ -560,6 +570,9 @@ background-size: cover;
   
 }
 
+.no-break-large {
+  white-space: normal;
+}
 
 .img-overlap {
   display: block;
@@ -571,9 +584,14 @@ background-size: cover;
 
 /* everything above 1100px and not any smaller */
 @media only screen and (min-width: 1100px){
+  
  
+   
 
-
+.addons-button{
+  padding-left: 6rem; 
+  padding-right: 6rem;
+}
 
 
 .customers-industries.box {
@@ -589,7 +607,7 @@ background-size: cover;
 
 
 .ml-12-lg {
-  margin-left: 6rem;
+  margin-left: 1rem;
 }
 .ml-15-lg{
   margin-left: 12rem;
@@ -608,9 +626,7 @@ background-size: cover;
     text-align: left;
   }
   
-  .no-break-large {
-  white-space: nowrap;
-  }
+  
 
   
   .offset-lg-cust {
@@ -778,3 +794,18 @@ background-size: cover;
  
 }
 
+/* Between 1202 and 990px */
+@media only screen and (min-width:990px) and (max-width:1202px) 
+{
+.nav-logo {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#nav-header{
+ position: absolute;
+ left: -2.5rem;
+ font-size: 1rem;
+}
+
+}

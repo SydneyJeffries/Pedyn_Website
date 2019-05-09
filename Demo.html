@@ -112,8 +112,8 @@
     <div class="row row-white-ypadding">
             <div class= "col-lg-7 offset-lg-2 white-box">
                 <section>
-                    <h4 class="text-center">Demo - (30 day free trial)</h4>
-                    <div class="underline mx-auto"></div>
+                    <h4 class="">Demo - (30 day free trial)</h4>
+                    <div class="underline"></div>
                     To receive a working demo of the P2000 program, simply send a request by email to: 
                      <a class="text-info" href="mailto:support@pedyn.com"> <strong>Support@Pedyn.Com</strong> </a>. </br>   
                      When making a request, please use your company email and include your company name, address, and website.
@@ -128,7 +128,7 @@
         It only takes 1 hour.
          We will be glad to discuss your specific needs to see if we have the solution that you are looking for. 
         <br> <br>
-         <div class="underline-longer mx-auto"></div>
+         <!-- <div class="underline-longer "></div> -->
     </section>   
 </div>
 
@@ -155,15 +155,24 @@
     </div>
 </div>
 
-<!-- this next section only displays for larger screensizes -->
+<!-- this next section displays different pictures for differnt screen sizes -->
 <div class="row row-white-ypadding">
-  <Section class="col-lg-7 offset-lg-2 d-none d-lg-block d-xl-block ">
+  <Section class="col-lg-7 offset-lg-2  ">
     <h4 class=""> Pedyn Interfaces with:</h4>
     <div class="underline " >
       </div>
    </Section>
-  <img class="img-fluid mx-auto d-none d-lg-block d-xl-block" alt="Pedyn interfaces with Quickbooks, Quickbooks Intuit, PeachTree, SolidWorks, Sage and many other programs. " src="IMG/Interfaces_with_Quickbooks.png" >
+  <!-- <img class="img-fluid mx-auto d-none d-lg-block d-xl-block" alt="Pedyn interfaces with Quickbooks, Quickbooks Intuit, PeachTree, SolidWorks, Sage and many other programs. " src="IMG/Interfaces_with_Quickbooks.png" > -->
+  <picture class="img-fluid mx-auto ">
+      <source srcset="IMG/Interfaces_with_Quickbooks.png"
+              media="(min-width: 1000px)">
+     <img src="img/Pedyn_Interfaces_with_Oracle.png" alt="Pedyn interfaces with accounting programs such as Quickbooks, Quickbooks Intuit, and PeachTree. The Pedyn software also intergrates with CAD programs such as SolidWorks. " class="img-fluid" /> <!--the smaller pic-->
+  </picture>
+
 </div>
+
+
+
     <!-- Footer -->
     <footer class="py-5 ">
         <div class="container">
