@@ -56,6 +56,10 @@ abbr[title] {
   height:470px
 }
 
+.noWrapping-anytime {
+  white-space: nowrap;
+}
+
  .FAQcontainer {
    background-color: #17a2b8 ;
    background-image:url('img/backgrounds/bigdata2curved.png') ;
@@ -507,6 +511,12 @@ footer {
 
 }
 
+.carousel-item > img{
+  width: 100%;
+  height: auto;
+}
+
+
 
 .row-white-nopadding {
   background-color: #f9fafa;
@@ -581,11 +591,54 @@ background-size: cover;
   margin-top: 1rem;
 }
 
+.movedleftintopicture{
+  
+  position: relative;
+  Left: 0;
+ 
+}
 
+.img-Zscore {
+  width: 120%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+
+
+/* everything above 1200px and not anysmaller */
+@media only screen and (min-width: 1200px){
+
+  .movedleftintopicture{
+  
+    position: relative;
+    Left: -2rem;
+   padding-left: 4rem;
+  }
+
+  .img-zscore {
+    position: relative;
+    left:.5rem;
+    top: 1rem;
+    z-index: 2000;
+    width: 120%;
+    
+   }
+
+
+
+}  
 /* everything above 1100px and not any smaller */
 @media only screen and (min-width: 1100px){
   
- 
+.cloudArticle-picture{
+  padding-right:0;
+}
+
+.cloudArticle-text{
+  padding-left:0;
+}
    
 
 .addons-button{
@@ -651,6 +704,7 @@ background-size: cover;
 
 
 
+
 /* everything slightly above tablet size */
 @media only screen and (min-width: 900px){
 
@@ -676,12 +730,7 @@ background-size: cover;
 
 
 
-  .movedleftintopicture{
   
-      position: relative;
-      Left: -2rem;
-     padding-left: 4rem;
-    }
 
 .row-white-xpadding {
   padding-left: 2rem;
@@ -689,12 +738,7 @@ background-size: cover;
  
 
 
-.img-zscore {
- position: relative;
- left:.5rem;
- top: 1rem;
- z-index: 1000;
-}
+
 
 .row-grey-whiteBorder {
   box-sizing: border-box;
@@ -786,9 +830,10 @@ background-size: cover;
   }
   
   .img-mobile2 {
-    min-width: 300px;
+    /* min-width: 200px; */
     position: relative; 
-    left: -2.0rem;
+    left: -3.2rem;
+   
    
   }
  
@@ -808,4 +853,6 @@ background-size: cover;
  font-size: 1rem;
 }
 
+
 }
+
