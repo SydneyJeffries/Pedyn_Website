@@ -76,7 +76,9 @@ abbr[title] {
   margin-right: auto;
 }
 
-
+.featurespage-leftpadding {
+  padding-left: .6rem;
+}
 
 .background-img {
 background-color: #e3e6e6;
@@ -334,9 +336,9 @@ hr {
 }
 
 
-.row-2{
+/* .row-2{
   padding-right: 2rem;
-}
+} */
 .btn-outline-info {
  border: .2rem solid #17a2b8;
 }
@@ -632,6 +634,9 @@ background-size: cover;
 /* everything above 1100px and not any smaller */
 @media only screen and (min-width: 1100px){
   
+
+
+
 .cloudArticle-picture{
   padding-right:0;
 }
