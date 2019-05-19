@@ -1,8 +1,19 @@
 body {
 
   padding-top: 0;
+  font-family: roboto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
 }
 
+.fontsize-larger {
+  font-size: 1.5rem;
+ 
+}
+
+.fontsize-larger2 {
+  font-size: 1.3rem;
+}
 .ul-style {
   padding: .5rem;
   border-top: 1px solid #e3e6e6 ;
@@ -340,7 +351,9 @@ hr {
   padding-right: 2rem;
 } */
 .btn-outline-info {
- border: .2rem solid #17a2b8;
+  color: white;
+ /* border: .2rem solid white; */
+ background-color:  #17a2b8;
 }
 
 @media(min-width: 1200px) {
@@ -471,6 +484,37 @@ h4 {
 background-color:  #e3e6e6 ; 
   margin: 0;
  padding: 1rem;
+}
+
+
+.row-white-2 {
+  background-color: white ; 
+  margin: 0;
+  padding: 2rem;
+  padding-bottom:1rem;
+  margin:0;
+}
+
+.row-grey-3{
+  background-color:  #e3e6e6 ; 
+  margin: 0;
+ padding: 2rem;
+ padding-bottom:1rem;
+ margin: 0;
+ 
+}
+
+.row-grey-xpadding {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  background-color: #e3e6e6 ;
+}
+.row-white-xpadding {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  background-color: white;
 }
 
 .partsnvendors-white {
