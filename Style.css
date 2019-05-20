@@ -434,6 +434,21 @@ transition-duration: 1s;
 
 }
 
+.no-margin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+th {
+  min-width: 10rem;
+}
+
+.grey-background{
+  padding: 1rem;
+  background-color: #e3e6e6 ; 
+  
+}
+
 .noMargin-row {
   margin-left: 0;
   margin-right: 0;
