@@ -56,6 +56,11 @@ abbr[title] {
  
 }
 
+.solutions_cloud-img {
+  opacity: .88;
+}
+
+
 .bold {
   font-variant:bold;
 }
@@ -78,7 +83,7 @@ abbr[title] {
   
   
    background-size: cover;
-   height: 12rem;
+   min-height: 12rem;
 
  }
 
@@ -200,6 +205,7 @@ border-right: none;
 border-bottom: #17a2b8 solid 5px;
 background-color:  #f9fafa ;
 }
+
 
 
 
@@ -491,6 +497,7 @@ background-color:  #e3e6e6 ;
   background-color: white ; 
   margin: 0;
   padding: 2rem;
+  padding-top: 1rem;
   padding-bottom:1rem;
   margin:0;
 }
@@ -499,6 +506,7 @@ background-color:  #e3e6e6 ;
   background-color:  #e3e6e6 ; 
   margin: 0;
  padding: 2rem;
+ padding-top: 1rem;
  padding-bottom:1rem;
  margin: 0;
  
@@ -654,7 +662,7 @@ background-size: cover;
 
 
 /* everything above 1200px and not anysmaller */
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1199px){
 
   .movedleftintopicture{
   
@@ -672,12 +680,19 @@ background-size: cover;
     
    }
 
-
+   .solutions_cloud-img {
+    max-width: 780px;
+    max-height: 350px;
+    opacity: .88;
+  }
+  
 
 }  
 /* everything above 1100px and not any smaller */
 @media only screen and (min-width: 1100px){
   
+ 
+
 
 
 
