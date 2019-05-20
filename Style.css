@@ -358,8 +358,9 @@ hr {
 } */
 .btn-outline-info {
   color: white;
- /* border: .2rem solid white; */
+  /* border: .2rem solid #b7e0e6;  */
  background-color:  #17a2b8;
+
 }
 
 @media(min-width: 1200px) {
@@ -395,6 +396,7 @@ body {
 
 .smallcaps{
   font-variant: small-caps;
+  letter-spacing: .04rem;
 }
 
 .smallcaps-blue {
@@ -437,6 +439,10 @@ transition-duration: 1s;
 .no-margin {
   margin-left: 0;
   margin-right: 0;
+}
+
+tbody {
+  border-radius: .25rem;
 }
 
 th {
