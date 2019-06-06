@@ -71,6 +71,11 @@ abbr[title] {
  
 }
 
+
+.dropdown-item:hover {
+  font-weight: bold;
+}
+
 .solutions_cloud-img {
   opacity: .88;
 }
@@ -141,6 +146,8 @@ background-size: cover;
 }
 
 
+
+
  nav , footer {
    background-color: #252526;
  }
@@ -156,6 +163,15 @@ background-size: cover;
    width: 2.4rem;
     height: 2rem;
  }
+
+ .nav-header {
+  color: white;
+  padding-left: 12rem;
+  font-weight: normal;
+}
+
+
+
 
  .MTcontainer{
    background-image: url("IMG/compresseddetails/trianglesvg.svg");
@@ -701,6 +717,15 @@ background-size: cover;
   left: 0;
 }
 
+.nav-header {
+  padding: 0;
+  text-align: center;
+}
+
+.dropdown-content {
+  background-color: purple;
+  color: white;
+}
 
 
 /* everything above 1200px and not anysmaller */
@@ -814,41 +839,25 @@ background-size: cover;
 /* everything slightly above tablet size */
 @media only screen and (min-width: 900px){
 
-  .dropdown-menu {
-    background-color: transparent;
+  .nav-header {
+    color: white;
+    padding-left: 12rem;
+    font-weight: normal;
   }
-  .dropbtn {
-   
-    font-size: 16px;
-    border: none;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    
-    
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+
+  .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
     display: block;
-  }
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+.dropdown-toggle{
+    margin-bottom: 2px;
+}
+.navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+    margin-bottom: 0;
+}
   
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
   .img-overlap {
     position: relative;
