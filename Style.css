@@ -81,6 +81,8 @@ abbr[title] {
 }
 
 
+
+
 .bold {
   font-variant:bold;
 }
@@ -170,8 +172,19 @@ background-size: cover;
   font-weight: normal;
 }
 
+.letterspace-faq {
+  letter-spacing: .05rem;
+}
 
+.dropdown-menu {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
 
+.dropdown-menu > a {
+  color: white;
+}
 
  .MTcontainer{
    background-image: url("IMG/compresseddetails/trianglesvg.svg");
@@ -237,8 +250,9 @@ padding-right: 0rem;
 border-top: none;
 border-left: none;
 border-right: none;
-border-bottom: #17a2b8 solid 5px;
+/* border-bottom: #17a2b8 solid 1px; */
 background-color:  #f9fafa ;
+border-collapse: none;
 }
 
 
@@ -299,6 +313,8 @@ color: #fff ;
 }
 
 .list-group-item {
+background-color: #343a40;
+color: white;
 padding-top: 0.55rem;
 padding-bottom: 0.55rem;
 padding-left: 0.4rem;
@@ -306,7 +322,7 @@ padding-right: 0.4rem;
 border-top: none;
 border-left: none;
 border-right: none;
-border-bottom: #17a2b8 solid 3px!important;
+/* border-bottom: #17a2b8 solid 3px!important; */
 margin-bottom: 0;
 }
 
@@ -850,7 +866,15 @@ background-size: cover;
 }
 .dropdown-menu{
     margin-top: 0;
+   background-color: #252526;
+    
+  
 }
+
+.dropdown-menu > a {
+  
+}
+
 .dropdown-toggle{
     margin-bottom: 2px;
 }
