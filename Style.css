@@ -147,7 +147,9 @@ background-size: cover;
      padding-right:1rem;
 }
 
-
+.footer-contact {
+  text-align:center;
+}
 
 
  nav , footer {
@@ -184,6 +186,10 @@ background-size: cover;
 
 .dropdown-menu > a {
   color: white;
+}
+
+.dropdown-menu > a:focus {
+  background-color:#17a2b8 
 }
 
  .MTcontainer{
@@ -313,7 +319,7 @@ color: #fff ;
 }
 
 .list-group-item {
-background-color: #343a40;
+background-color: #252526;
 color: white;
 padding-top: 0.55rem;
 padding-bottom: 0.55rem;
@@ -739,7 +745,7 @@ background-size: cover;
 }
 
 .dropdown-content {
-  background-color: purple;
+
   color: white;
 }
 
@@ -863,6 +869,7 @@ background-size: cover;
 
   .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
     display: block;
+    z-index: 2000;
 }
 .dropdown-menu{
     margin-top: 0;
@@ -956,6 +963,11 @@ background-size: cover;
  
 }
 
+.footer-contact {
+  position:relative;
+  top: -1rem;
+  text-align: right;
+}
 
 
 .pictureborder {
