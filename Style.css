@@ -1,7 +1,7 @@
 body {
 
   padding-top: 0;
-  font-family: roboto;
+  font-family: Roboto;
   font-size: 1.2rem;
   line-height: 1.5rem;
 }
@@ -229,8 +229,8 @@ background-size: cover;
 }
 
  .smallcaps{
-font-variant: small-caps;
-letter-spacing: 1.5rem;
+/* font-variant: small-caps; */
+letter-spacing: .06rem;
 
  }
 
@@ -454,8 +454,8 @@ body {
 }
 
 .smallcaps{
-  font-variant: small-caps;
-  letter-spacing: .04rem;
+  /* font-variant: small-caps; */
+  letter-spacing: .06rem;
 }
 
 .smallcaps-blue {
@@ -558,7 +558,8 @@ h1 {
 }
 
 h4 {
-  font-variant: small-caps;
+  /* font-variant: small-caps; */
+  letter-spacing: .1rem;
 }
 
 .interfacewith{
